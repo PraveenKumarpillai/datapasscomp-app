@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./parentoutput.component.css']
 })
 export class ParentoutputComponent {
-
+  childdata=""
+  UpdateName(t1:string)
+  {
+    this.childdata=t1;
+  }
 }
