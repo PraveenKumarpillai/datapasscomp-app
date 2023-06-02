@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component,Output,EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-childout',
@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./childout.component.css']
 })
 export class ChildoutComponent {
-
+   @Output() outchildpointer=new EventEmitter<string>()
 }
