@@ -8,6 +8,8 @@ import { ParentviewchildComponent } from './parentviewchild/parentviewchild.comp
 import { ChildviewchildComponent } from './childviewchild/childviewchild.component';
 import { ParentoutputComponent } from './parentoutput/parentoutput.component';
 import { ChildoutComponent } from './childout/childout.component';
+import { Parentoutput1Component } from './parentoutput1/parentoutput1.component';
+import { Childoutput1Component } from './childoutput1/childoutput1.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { ChildoutComponent } from './childout/childout.component';
     ParentviewchildComponent,
     ChildviewchildComponent,
     ParentoutputComponent,
-    ChildoutComponent
+    ChildoutComponent,
+    Parentoutput1Component,
+    Childoutput1Component
   ],
   imports: [
     BrowserModule
