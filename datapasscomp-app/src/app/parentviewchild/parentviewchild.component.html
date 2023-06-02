@@ -1,1 +1,8 @@
-<p>parentviewchild works!</p>
+<h1>Parent Using Viewchild</h1>    
+Add value from ParentComponent <input #parentname>
+<br/>
+Name: <input #name>
+Country: <input #country>
+<button (click)="UpdateParent(name.value,country.value,parentname.value)">Click-Me</button>
+<h1>childviewchild</h1>
+<app-childviewchild></app-childviewchild>
