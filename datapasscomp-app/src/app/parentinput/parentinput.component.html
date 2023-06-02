@@ -1,0 +1,9 @@
+<h2>Passdata to child single String</h2>
+TypeHere<input #mydata>
+<br/>
+<h2>Pass data as Model</h2>
+Name: <input #name>
+Country:<input #country>
+<button (click)="UpdatetoChild(mydata.value,name.value,country.value)">ClickMe</button> 
+<h1>child Component</h1>
+<app-childinput [inputMyprop]="myProp"></app-childinput>
