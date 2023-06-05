@@ -10,6 +10,8 @@ import { ParentoutputComponent } from './parentoutput/parentoutput.component';
 import { ChildoutComponent } from './childout/childout.component';
 import { Parentoutput1Component } from './parentoutput1/parentoutput1.component';
 import { Childoutput1Component } from './childoutput1/childoutput1.component';
+import { ChildsvcComponent } from './childsvc/childsvc.component';
+import { ParentsvcComponent } from './parentsvc/parentsvc.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { Childoutput1Component } from './childoutput1/childoutput1.component';
     ParentoutputComponent,
     ChildoutComponent,
     Parentoutput1Component,
-    Childoutput1Component
+    Childoutput1Component,
+    ChildsvcComponent,
+    ParentsvcComponent
   ],
   imports: [
     BrowserModule

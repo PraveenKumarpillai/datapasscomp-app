@@ -1,0 +1,14 @@
+<p>childsvc works!</p>
+<table class="table">
+    <thead>
+        <th>Name</th><th>Mark</th>
+    </thead>
+    <tbody *ngFor="let item of listarray">
+        <tr>
+            <td>{{item.Name}}</td><td>{{item.Mark}}</td>
+        </tr>
+    </tbody>
+</table>
+Name:<input #name>
+Mark:<input #mark>
+<button (click)="Updatedata(name.value,mark.value)">ClickMe</button>
